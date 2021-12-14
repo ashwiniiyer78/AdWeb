@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testng-results failed="1" passed="0" skipped="0" total="1">
+<suite duration-ms="57957" name="io.cucumber.core.plugin.TestNGFormatter">
+<test duration-ms="57957" name="io.cucumber.core.plugin.TestNGFormatter">
+<class name="Sponsored Ad Element size check">
+<test-method duration-ms="57737" finished-at="2021-10-25T23:27:24.962Z" name="When user is on BBY Home page" started-at="2021-10-25T23:26:27.211Z" status="FAIL">
+<exception class="java.lang.NullPointerException">
+<message><![CDATA[Given User is on betbuy page................................................passed
+When User searches "blender"................................................passed
+Then sponsored ad is displayed width "1160" and height "257"................passed
+And close web page..........................................................failed
+]]></message>
+<full-stacktrace><![CDATA[java.lang.NullPointerException
+	at com.bestbuy.adeng.stepDefinitions.StepDefinition.close_web_page(StepDefinition.java:111)
+	at ✽.close web page(classpath:features/AdPage.feature:8)
+]]></full-stacktrace>
+</exception>
+</test-method>
+</class>
+</test>
+</suite>
+</testng-results>
